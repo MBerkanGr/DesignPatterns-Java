@@ -6,6 +6,7 @@ public class Kitchen_1 {
     public String name;
     public String amount;
     public double price;
+    public Meal meal;
 
     public String getName() {
         return name;
