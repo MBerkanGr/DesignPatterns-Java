@@ -19,5 +19,11 @@ public class SRP1 {
         double d = c / a;
         w = a + (b+2) * d;
         System.out.println(w);
+
+        /*
+            Kitchen Örneği
+            Bütün sorumluluklar Kitchen_1 sınıfındadır , bu mantık SRP prensibine uymaz.
+            Onun yerine sorumlulukları Kitchen_2 , MaterialsOperations ve CookOperations olarak ayırmak SRP prensibine uyar.
+        */
     }
 }
