@@ -8,7 +8,7 @@ public class Employee_1 {
         ARCHITECT
     }
 
-    public static void PaySalary(EmployeeType type){
+    public static void paySalary(EmployeeType type){
         switch (type){
             case CHEF:
                 System.out.println("Chef Salary = 3500");
@@ -26,6 +26,7 @@ public class Employee_1 {
     }
 
     public static void main(String[] args) {
-        PaySalary(EmployeeType.ENGINEER);
+        paySalary(EmployeeType.ENGINEER);
+        paySalary(EmployeeType.CHEF);
     }
 }
