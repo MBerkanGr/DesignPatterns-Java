@@ -1,6 +1,6 @@
 package BasicPrinciples.LSP;
 
-public class WirelessHeadphones implements Headphone {
+public class WirelessHeadphones implements Headphone_2 , Bluetooth {
     @Override
     public void volumeUp(){
         System.out.println("Volume ++");

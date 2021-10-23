@@ -1,6 +1,6 @@
 package BasicPrinciples.LSP;
 
-public class WiredHeadphone implements Headphone{
+public class WiredHeadphone implements Headphone_2 {
 
     @Override
     public void volumeUp() {
@@ -12,8 +12,10 @@ public class WiredHeadphone implements Headphone{
         System.out.println("Volume --");
     }
 
+    /*
     @Override
     public String openBluetooth() {
         return null;
     }
+    */
 }

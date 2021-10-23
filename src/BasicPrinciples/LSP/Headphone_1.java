@@ -1,6 +1,6 @@
 package BasicPrinciples.LSP;
 
-public interface Headphone {
+public interface Headphone_1 {
     public void volumeUp();
 
     public void volumeDown();
