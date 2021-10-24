@@ -13,4 +13,13 @@ public class ISP1 {
         varsa özel ince arayüzlere bölünmelidir.
         İstemciler sadece ihtiyacı olan metotları görmeliler.
         */
-    }}
+
+        /*
+        Animal Örneği
+        Eğer Dog, Cat ve Bird sınıfları Animal arayüzünü implement ederse ihtiyaç duymadıkları
+        metotları da override etmek zorunda kalacaklar.
+        Onun yerine Animal arayüzünü özelleştirerek böldüğümüzde sınıflar sadece ihtiyaç duydukları
+        arayüzleri implement edecekler.
+        */
+    }
+}
