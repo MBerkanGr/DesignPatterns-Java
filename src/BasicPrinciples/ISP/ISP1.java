@@ -13,5 +13,4 @@ public class ISP1 {
         varsa özel ince arayüzlere bölünmelidir.
         İstemciler sadece ihtiyacı olan metotları görmeliler.
         */
-    }
-}
+    }}
