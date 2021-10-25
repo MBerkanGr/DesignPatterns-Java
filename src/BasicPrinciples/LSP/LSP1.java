@@ -11,11 +11,11 @@ public class LSP1 {
         */
 
         /*
-        Headphone Örneği
-        Headphone_1 , volumeUp , volumeDown ve openBluetooth metotlarını kapsamaktadır.
-        Eğer WiredHeadphone , Headphone_1'i implement ederse openBluetooth özelliğini taşımamasına
-        rağmen override etmek zorunda kalır. Onun yerine openBluetooth özelliğini ayrı bir interface oluşturarak
-        sadece sahip olan sınıfların implement etmesi sağlanır.
+        Shape Örneği
+        Square, Rectangle extends ederse Rectangle'nin beklediği Width ve
+        Height'i tam anlamıyla karşılayamaz ve LSP'ye uymaz, çünkü Square için
+        tek bir kenar bilgisi yeterlidir.
+        Shape adında arayüz oluşturarak her sınıfın kendi davranışlarını uygulamasını sağlarız.
         */
     }
 }
