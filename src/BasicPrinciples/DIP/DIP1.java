@@ -11,5 +11,11 @@ public class DIP1 {
         Sınıflar arası bağımlılıklar olabildiğince az olmalıdır özellikle
         üst seviye sınıflar alt seviye sınıflara bağımlı olmamalıdır.
         */
+
+        /*
+        Car Örneği
+        Car sınıfında AutomobileService sınıfı, Audi ve Mercedes sınıflarına bağımlıdır.
+        Soyutlama yaparak sınıfların bağımlılığını arayüzlerde olmasını sağlarız.
+        */
     }
 }
